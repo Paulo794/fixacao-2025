@@ -1,10 +1,12 @@
 package app;
 
+import java.lang.*;
+
 public class Genero{
     private long id;
     private String nome;
 
-    import java.lang.*;
+
     
     public void setid(long id) {
         if(id < 1){
